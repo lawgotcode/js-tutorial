@@ -1,14 +1,10 @@
-var life = 100;
-
-life = life - 10; 
-
-var name = 'Lawrence Agyei';
-
-var checkout = true; // boolean
-
-var box;
+const name = 'Law';
 
 
+function toUpper(text) {
+    const upperCased = text.toUpperCase();
+    console.log(upperCased);
+}
 
 
-console.log(box);
+toUpper(name);
