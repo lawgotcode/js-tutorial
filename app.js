@@ -1,10 +1,11 @@
-const name = 'Law';
+const user = {
+	name: 'Law',
+	age: 24,
+	married: false,
+	purchases: ["phone", "car", "laptop"]
+};
+
+console.log(user.purchases);														
 
 
-function toUpper(text) {
-    const upperCased = text.toUpperCase();
-    console.log(upperCased);
-}
 
-
-toUpper(name);
