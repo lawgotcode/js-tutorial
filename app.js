@@ -1,11 +1,5 @@
-const user = {
-	name: 'Law',
-	age: 24,
-	married: false,
-	purchases: ["phone", "car", "laptop"]
-};
+const text = document.querySelector(".title");
+const changeColor = document.querySelector(".changeColor");
 
-console.log(user.purchases);														
-
-
+text.classList.add("changeColor");
 
